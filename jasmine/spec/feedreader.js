@@ -64,9 +64,9 @@ $(function() {
             const menu = document.querySelector('.menu-icon-link');
 
             menu.click();
-
             expect(body.classList.contains('menu-hidden')).toBe(false);
-
+            menu.click();
+            expect(body.classList.contains('menu-hidden')).toBe(true);
         });
     });
 
@@ -77,8 +77,9 @@ $(function() {
                 done();
             });
         });
-        it('has at least one entry', function() {
-            expect(loadFeed).not.toBe(0);
+        it('has at least one entry in container feed', function() {
+            let parent = document.querySelector('.feed');
+            expect(parent.firstChild.length).toBeGreaterThan(parent.nextSibling.length);
         });
     });
 
