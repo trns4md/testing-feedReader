@@ -21,12 +21,10 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
-# How will I complete this project?
+# What is needed to run this project?
 
-Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
-1. Take the JavaScript Testing [course](https://www.udacity.com/course/ud549)
-2. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
+1. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
 3. Review the functionality of the application within your browser.
 4. Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.
 5. Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](http://jasmine.github.io).
